@@ -7,6 +7,16 @@ class App extends Component {
     return (
       <div className="App">
          My Hello
+         <FirstComponent></FirstComponent>
+      </div>
+     );
+  }
+}
+class FirstComponent extends Component {
+  render() {
+    return (
+      <div className="firstComponent">
+         My Hello
       </div>
     );
   }

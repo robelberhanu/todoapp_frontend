@@ -12,15 +12,7 @@ class App extends Component {
      );
   }
 }
-class FirstComponent extends Component {
-  render() {
-    return (
-      <div className="firstComponent">
-         My Hello
-      </div>
-    );
-  }
-}
+ 
 export default App;
 
 

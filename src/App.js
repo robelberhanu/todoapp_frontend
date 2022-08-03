@@ -11,6 +11,15 @@ class App extends Component {
       </div>
      );
   }
+
+  render() {
+    return (
+      <div className="App">
+         My Hello
+         <FirstComponent></FirstComponent>
+      </div>
+     );
+  }
 }
  
 export default App;

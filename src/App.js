@@ -13,16 +13,16 @@ class App extends Component {
   }
 }
 
-// this class helps us retain the learning component classes. We want to make a counter class now.
-// class LearningComponents extends Component{
-//   render(){
-//     return(
-//       <div className="LearningComponents">
-//          <FirstComponent></FirstComponent>
-//       </div>
-//     );
-//   }
-// }
+this class helps us retain the learning component classes. We want to make a counter class now.
+class LearningComponents extends Component{
+  render(){
+    return(
+      <div className="LearningComponents">
+         <FirstComponent></FirstComponent>
+      </div>
+    );
+  }
+}
   
  
 export default App;

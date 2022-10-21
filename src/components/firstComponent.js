@@ -4,7 +4,7 @@ class FirstComponent extends Component {
     render() {
       return (
         <div className="App">
-           <FirstComponent></FirstComponent>
+          I am Groot
         </div>
        );
     }

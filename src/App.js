@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import FirstComponent from './components/firstComponent'
-import Counter from './components/counter';
+import FirstComponent from './components/learning-examples/firstComponent'
+import Counter from './components/counter/counter';
 import './App.css';
  
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <LearningComponents></LearningComponents>
         <Counter></Counter>
       </div>
      );

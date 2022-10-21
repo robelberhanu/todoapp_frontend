@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import FirstComponent from './components/firstComponent'
+import Counter from './components/counter';
 import './App.css';
  
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <LearningComponents></LearningComponents>
+        <Counter></Counter>
       </div>
      );
   }

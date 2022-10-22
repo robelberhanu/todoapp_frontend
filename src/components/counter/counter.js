@@ -1,16 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 import './counter.css'
 
-function Counter(){
+class Counter extends Component(){
+
+    // Define the initial state in a constructor
+    // state => counter 0
+    render(){
     return(
         <div className="counter">
-            <button onClick={increment}>+1</button>
+            <button onClick={this.increment}>+1</button>
             <span className="count">0</span>
         </div> 
     );
 }
-
-function increment(){
+    increment(){
     console.log('increment')
 }
+}
+
+
 export default Counter

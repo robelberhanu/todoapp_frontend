@@ -27,6 +27,12 @@ class Counter extends Component(){
         counter: this.state.counter + 1
     });
 }
+
+increment(){ 
+    this.setState({
+        counter: this.state.counter + 1
+    });
+}
 }
 
 

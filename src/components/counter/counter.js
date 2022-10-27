@@ -28,11 +28,7 @@ class Counter extends Component(){
     });
 }
 
-increment(){ 
-    this.setState({
-        counter: this.state.counter + 1
-    });
-}
+
 }
 
 

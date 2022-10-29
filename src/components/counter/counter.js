@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './counter.css'
 
-class Counter extends Component(){
+class counter extends Component(){
 
     // Define the initial state in a constructor
     // state => counter 0
